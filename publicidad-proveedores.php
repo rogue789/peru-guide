@@ -51,7 +51,7 @@
                 </div>
             </div>
         </div>
-        <div class="container pb-5">
+        <div class="container pb-5"> 
             <div class="bg-white p-5">
                 <div class="tab-content" id="pricing-contentTab">
                     <div class="tab-pane fade show active" id="paquete-gratuito" role="tabpanel">
@@ -133,7 +133,26 @@
                         <p>Loremp Impsum</p>
                     </div>
                 </div>
-                
+            </div>
+        </div> 
+        <div class="container pb-5">   
+            <div class="d-flex mb-2">
+                <div class="aFc-rojo">(1)</div>
+                <div><p class="aFc-texto ml-2">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)</p></div> 
+            </div>
+            <div class="d-flex mb-2">
+                <div class="aFc-rojo">(2)</div>
+                <div><p class="aFc-texto ml-2">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)</p></div> 
+            </div>
+            <div class="d-flex mb-2">
+                <div class="aFc-rojo">(3)</div>
+                <div><p class="aFc-texto ml-2">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)</p></div> 
+            </div>
+            <div class="d-flex mb-2">
+                <div class="aFc-rojo">(4)</div>
+                <div><p class="aFc-texto ml-2">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta)</p></div> 
+            </div>
+        </div>     
             
     </div>
 
