@@ -502,8 +502,14 @@ $(document).ready(function () {
 			  slidesToShow: 1
 			}
 		  }
-		]
-	  });
+		]  
+	  }); 
+	 $('.paquetes-slider').on('afterChange', function(event, slick, currentSlide, nextSlide){
+		$('#pricing-contentTab .tab-pane').removeClass('show active'); 
+		var objetivo = $('.paquetes-slider .slick-current .cuadro').attr('objetivo');
+		$('#pricing-contentTab').find('#' + objetivo).addClass('show active'); 
+	});
 	
 });
+
 

@@ -13,121 +13,128 @@
             <div class="contenedor-slider">
                 <div class="paquetes-slider">
                     <div>
-                        <div class="cuadro">
+                        <div class="cuadro" objetivo="paquete-gratuito">
                             <p class="titulo">PAQUETE GRATUITO</p>
                             <p class="precio">USD 0.00</p>
                         </div>
                     </div>
                     <div>
-                        <div class="cuadro">
+                        <div class="cuadro" objetivo="paquete2">
                             <p class="titulo">PAQUETE GRATUITO</p>
                             <p class="precio">USD 0.00</p>
                         </div>
                     </div>
                     <div>
-                        <div class="cuadro">
+                        <div class="cuadro" objetivo="paquete3">
                             <p class="titulo">PAQUETE GRATUITO</p>
                             <p class="precio">USD 0.00</p>
                         </div>
                     </div>
                     <div>
-                        <div class="cuadro">
+                        <div class="cuadro" objetivo="paquete4">
                             <p class="titulo">PAQUETE GRATUITO</p>
                             <p class="precio">USD 0.00</p>
                         </div>
                     </div>
                     <div>
-                        <div class="cuadro">
+                        <div class="cuadro" objetivo="paquete5">
                             <p class="titulo">PAQUETE GRATUITO</p>
                             <p class="precio">USD 0.00</p>
                         </div>
                     </div>
                     <div>
-                        <div class="cuadro">
+                        <div class="cuadro" objetivo="paquete6">
                             <p class="titulo">PAQUETE GRATUITO</p>
                             <p class="precio">USD 0.00</p>
-                        </div>
+                        </div> 
                     </div>
                 </div>
             </div>
         </div>
         <div class="container pb-5">
             <div class="bg-white p-5">
-                <div class="row">
-                    <div class="col-12 col-md-6  mb-4">
-                        <div class="box">
-                            <div class="d-inline-block"><i class="fa fa-check aFc-rojo" aria-hidden="true"></i></div>
-                            <div class="d-inline-block"><p class="aFc-texto">Creación de sitio individualizado para su negocio.</p></div>
-                        </div> 
-                    </div> 
-                    <div class="col-12 col-md-6  mb-4">
-                        <div class="box">
-                            <div class="d-inline-block"><i class="fa fa-check aFc-rojo" aria-hidden="true"></i></div>
-                            <div class="d-inline-block"><p class="aFc-texto">Creación de sitio individualizado para su negocio.</p></div>
-                        </div> 
+                <div class="tab-content" id="pricing-contentTab">
+                    <div class="tab-pane fade show active" id="paquete-gratuito" role="tabpanel">
+                        <div class="row">
+                            <div class="col-12 col-md-6  mb-4">
+                                <div class="box">
+                                    <div class="d-inline-block"><i class="fa fa-check aFc-rojo" aria-hidden="true"></i></div>
+                                    <div class="d-inline-block"><p class="aFc-texto">Creación de sitio individualizado para su negocio.</p></div>
+                                </div> 
+                            </div> 
+                            <div class="col-12 col-md-6  mb-4">
+                                <div class="box">
+                                    <div class="d-inline-block"><i class="fa fa-check aFc-rojo" aria-hidden="true"></i></div>
+                                    <div class="d-inline-block"><p class="aFc-texto">Creación de sitio individualizado para su negocio.</p></div>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6  mb-4">
+                                <div class="box">
+                                    <div class="d-inline-block"><i class="fa fa-check aFc-rojo" aria-hidden="true"></i></div>
+                                    <div class="d-inline-block"><p class="aFc-texto">Creación de sitio individualizado para su negocio.</p></div>
+                                </div> 
+                            </div> 
+                            <div class="col-12 col-md-6  mb-4">
+                                <div class="box">
+                                    <div class="d-inline-block"><i class="fa fa-check aFc-rojo" aria-hidden="true"></i></div>
+                                    <div class="d-inline-block"><p class="aFc-texto">Creación de sitio individualizado para su negocio.</p></div>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6  mb-4">
+                                <div class="box">
+                                    <div class="d-inline-block"><i class="fa fa-check aFc-rojo" aria-hidden="true"></i></div>
+                                    <div class="d-inline-block"><p class="aFc-texto">Creación de sitio individualizado para su negocio.</p></div>
+                                </div> 
+                            </div> 
+                            <div class="col-12 col-md-6  mb-4">
+                                <div class="box">
+                                    <div class="d-inline-block"><i class="fa fa-check aFc-rojo" aria-hidden="true"></i></div>
+                                    <div class="d-inline-block"><p class="aFc-texto">Creación de sitio individualizado para su negocio.</p></div>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6  mb-4">
+                                <div class="box">
+                                    <div class="d-inline-block"><i class="fa fa-check aFc-rojo" aria-hidden="true"></i></div>
+                                    <div class="d-inline-block"><p class="aFc-texto">Creación de sitio individualizado para su negocio.</p></div>
+                                </div> 
+                            </div> 
+                            <div class="col-12 col-md-6  mb-4">
+                                <div class="box">
+                                    <div class="d-inline-block"><i class="fa fa-check aFc-rojo" aria-hidden="true"></i></div>
+                                    <div class="d-inline-block"><p class="aFc-texto">Creación de sitio individualizado para su negocio.</p></div>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6  mb-4">
+                                <div class="box">
+                                    <div class="d-inline-block"><i class="fa fa-check aFc-rojo" aria-hidden="true"></i></div>
+                                    <div class="d-inline-block"><p class="aFc-texto">Creación de sitio individualizado para su negocio.</p></div>
+                                </div> 
+                            </div> 
+                            <div class="col-12 col-md-6  mb-4">
+                                <div class="box">
+                                    <div class="d-inline-block"><i class="fa fa-check aFc-rojo" aria-hidden="true"></i></div>
+                                    <div class="d-inline-block"><p class="aFc-texto">Creación de sitio individualizado para su negocio.</p></div>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="d-block text-center">
+                            <a class="aButton-r-a shadowButton aP-15-25 aFz-16 aMb-30" href="#">COMPRAR</a>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="paquete2" role="tabpanel">
+                        <p>Loremp Impsum</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12 col-md-6  mb-4">
-                        <div class="box">
-                            <div class="d-inline-block"><i class="fa fa-check aFc-rojo" aria-hidden="true"></i></div>
-                            <div class="d-inline-block"><p class="aFc-texto">Creación de sitio individualizado para su negocio.</p></div>
-                        </div> 
-                    </div> 
-                    <div class="col-12 col-md-6  mb-4">
-                        <div class="box">
-                            <div class="d-inline-block"><i class="fa fa-check aFc-rojo" aria-hidden="true"></i></div>
-                            <div class="d-inline-block"><p class="aFc-texto">Creación de sitio individualizado para su negocio.</p></div>
-                        </div> 
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-6  mb-4">
-                        <div class="box">
-                            <div class="d-inline-block"><i class="fa fa-check aFc-rojo" aria-hidden="true"></i></div>
-                            <div class="d-inline-block"><p class="aFc-texto">Creación de sitio individualizado para su negocio.</p></div>
-                        </div> 
-                    </div> 
-                    <div class="col-12 col-md-6  mb-4">
-                        <div class="box">
-                            <div class="d-inline-block"><i class="fa fa-check aFc-rojo" aria-hidden="true"></i></div>
-                            <div class="d-inline-block"><p class="aFc-texto">Creación de sitio individualizado para su negocio.</p></div>
-                        </div> 
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-6  mb-4">
-                        <div class="box">
-                            <div class="d-inline-block"><i class="fa fa-check aFc-rojo" aria-hidden="true"></i></div>
-                            <div class="d-inline-block"><p class="aFc-texto">Creación de sitio individualizado para su negocio.</p></div>
-                        </div> 
-                    </div> 
-                    <div class="col-12 col-md-6  mb-4">
-                        <div class="box">
-                            <div class="d-inline-block"><i class="fa fa-check aFc-rojo" aria-hidden="true"></i></div>
-                            <div class="d-inline-block"><p class="aFc-texto">Creación de sitio individualizado para su negocio.</p></div>
-                        </div> 
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-6  mb-4">
-                        <div class="box">
-                            <div class="d-inline-block"><i class="fa fa-check aFc-rojo" aria-hidden="true"></i></div>
-                            <div class="d-inline-block"><p class="aFc-texto">Creación de sitio individualizado para su negocio.</p></div>
-                        </div> 
-                    </div> 
-                    <div class="col-12 col-md-6  mb-4">
-                        <div class="box">
-                            <div class="d-inline-block"><i class="fa fa-check aFc-rojo" aria-hidden="true"></i></div>
-                            <div class="d-inline-block"><p class="aFc-texto">Creación de sitio individualizado para su negocio.</p></div>
-                        </div> 
-                    </div>
-                </div>
-                <div class="d-block text-center">
-                    <a class="aButton-r-a shadowButton aP-15-25 aFz-16 aMb-30" href="#">COMPRAR</a>
-                </div>
-            </div>
-        </div>
+                
+            
     </div>
 
 
