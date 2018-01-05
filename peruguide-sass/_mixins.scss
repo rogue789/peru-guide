@@ -1,0 +1,104 @@
+
+//Mixins
+@mixin centrar(){
+  position: absolute !important;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+@mixin transition-all($time) {
+  -webkit-transition: all $time * 1s;
+  -moz-transition: all $time * 1s;
+  transition: all $time * 1s;
+} 
+@mixin transition-opacity($time) {
+  -webkit-transition: opacity  ease-in-out  $time * 1s;
+  -moz-transition: opacity ease-in-out $time * 1s;
+  transition: opacity ease-in-out $time * 1s;
+}   
+@mixin fonts($fuente){
+@font-face {
+  font-family: '#{$fuente}';
+  src:
+  	url("../fonts/#{$fuente}.eot"),
+  	url('../fonts/#{$fuente}.eot?#iefix') format('embedded-opentype'),
+  	url('../fonts/#{$fuente}.otf')  format('opentype'),
+		url('../fonts/#{$fuente}.woff') format('woff'),
+		url('../fonts/#{$fuente}.ttf')  format('truetype'),
+		url('../fonts/#{$fuente}.svg##{$fuente}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+}
+
+@mixin icons($fuente){
+@font-face {
+  font-family: '#{$fuente}';
+  src:
+  	url("../fonts/icon/#{$fuente}.eot"),
+  	url('../fonts/icon/#{$fuente}.eot?#iefix') format('embedded-opentype'),
+  	url('../fonts/icon/#{$fuente}.otf')  format('opentype'),
+		url('../fonts/icon/#{$fuente}.woff') format('woff'),
+		url('../fonts/icon/#{$fuente}.ttf')  format('truetype'),
+		url('../fonts/icon/#{$fuente}.svg##{$fuente}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+}
+
+
+@mixin shadow($x,$y,$blur,$dis,$color){
+-webkit-box-shadow: $x $y $blur $dis $color;
+-moz-box-shadow: $x $y $blur $dis $color;
+-o-box-shadow: $x $y $blur $dis $color;
+-ms-box-shadow: $x $y $blur $dis $color;
+box-shadow: $x $y $blur $dis $color;
+}
+
+@mixin rotate($grado){
+-webkit-transform: rotate($grado);
+-moz-transform: rotate($grado);
+-o-transform: rotate($grado);
+-ms-transform: rotate($grado);
+transform: rotate($grado);
+}
+
+@mixin scale($escala){
+-webkit-transform: scale($escala);
+-moz-transform: scale($escala);
+-o-transform: scale($escala);
+-ms-transform: scale($escala);
+transform: scale($escala);
+}
+
+@mixin transition($speed){
+-webkit-transition: all $speed linear;
+-moz-transition: all $speed linear;
+-o-transition: all $speed linear;
+-ms-transition: all $speed linear;
+transition: all $speed linear;
+}
+
+@mixin radius($radius){
+-webkit-border-radius : $radius;
+-moz-border-radius : $radius;
+-o-border-radius : $radius;
+-ms-border-radius : $radius;
+border-radius : $radius;
+}
+
+@mixin transition-ease($speed){
+-webkit-transition: all $speed ease;
+-moz-transition: all $speed ease;
+-o-transition: all $speed ease;
+-ms-transition: all $speed ease;
+transition: all $speed ease;
+}
+
+@mixin flexbox{
+display: -webkit-box;
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flexbox;
+display: flexbox;
+}

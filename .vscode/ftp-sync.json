@@ -1,0 +1,23 @@
+{
+    "remotePath": "/public_html/peruguide-2",
+    "host": "ftp.wataweb.info",
+    "username": "watawebu",
+    "password": "^MiYoG>oj/",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": true,
+    "passive": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "uploadOnSave": false,
+        "extensionsToInclude": [],
+        "path": ""
+    }
+}
