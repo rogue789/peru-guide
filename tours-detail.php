@@ -688,7 +688,7 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-12 col-md-6">
+						<div class="col-12 col-md-6 mb-4">
 							<label>Country</label>
 							<select>
 								<option>Perú</option>

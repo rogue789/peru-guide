@@ -1474,8 +1474,8 @@ select{background: #fff !important;  color :$c-texto; border: 1px solid #d8d8d8;
 	> a{background: rgba(0, 0, 0, 0) none repeat scroll 0 0;border: medium none;color: #ffffff;cursor: pointer;font-family: Calibri;font-size: 17px;position: absolute;top: 8px;width: 15px;text-align: center;
 			&:hover span{color: $c-blanco;}
 		}
-	.ui-datepicker-prev{left: 20px;}
-	.ui-datepicker-next{right: 6px;} 
+	.ui-datepicker-prev{left: 6px;}
+	.ui-datepicker-next{right: 20px; text-align: right;} 
 	.ui-datepicker-title {color: #ffffff;font-family: Calibri;font-size: 17px;padding: 10px 15px;text-align: center;}
 }
 .ui-datepicker-calendar{background: $c-blanco;
