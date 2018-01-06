@@ -505,27 +505,47 @@
 				<p class="gris text-center mb-3">Please complete all information requested below with accurate information. The information you provide below will be used to make all reservations included in your tour package</p>
 				<form>
 					<div class="row">
-						<div class="col-12 col-md-6 calendario">
-							<div data-toggle="datepicker"></div>
-							<div class="calendar-bottom mb-4"><p class="rojo text-center">Selecciona el dia para ver los espacios disponibles</p></div>
+						<div class="col-12 col-md-3">
+							<label>Check In</label>
+							<input type="date">
+						</div>
+						<div class="col-12 col-md-3">
+							<label>Check Out</label>
+							<input type="date">
 						</div>
 						<div class="col-12 col-md-6">
-							<h3 class="negro mb-2">Desparture Date: Dic 10, 2016</h3>
-							<label class="espacios mb-4">5 Espacios Disponibles</label>
-							<label>Selecciona tus espacios</label>
-							<select class="filtro-multiselect mb-4">
-								<option>1</option>
-								<option>2</option>
-								<option>3</option>
-							</select>
 							<label>Type of Accommodation</label>
 							<select class="filtro-multiselect mb-4">
 								<option>1</option>
 								<option>2</option>
 								<option>3</option>
 							</select>
-							<label>Specia Requeriments</label>
-							<textarea class="mb-4" row="4"></textarea>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 col-md-6  mb-4">
+							<label>Room(s) Booked</label>
+							<select>
+								<option>1</option>
+								<option>2</option>
+							</select>
+						</div>
+						<div class="col-12 col-md-6">
+							<label>Simple Rooms Available</label>
+							<select class="filtro-multiselect">
+								<option>4 Disponibles - May 5 2017</option>
+							</select>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 col-6 mb-4">
+							<p class="my-2"><span class="aFc-negro">Breakfast Included:</span> Yes(1 person per night).</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 mb-4">
+							<label>Specia Request</label>
+							<textarea rows="4"></textarea>
 						</div>
 					</div>
 					<div class="row">
@@ -536,6 +556,17 @@
 						<div class="col-12 col-md-6">
 							<label>Ingresar Código de Descuento</label>
 							<input type="text" class="mb-4">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 col-md-6">
+							<label>Amount to be Paid with Discount</label>
+							<input type="text" class="mb-4">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+							<p class="gris">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.</p>
 						</div>
 					</div>
 					<div class="borde1 mt-3 mb-3"></div>
@@ -645,75 +676,7 @@
 							<input type="text" class="mb-4">
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-12">
-							<h3 class="negro mb-4">Traveler 2 Information</h3>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-12 col-md-6">
-							<label>First Name (as appears in your Passport)</label>
-							<input type="text" class="-mb-4">
-						</div>
-						<div class="col-12 col-md-6">
-							<label>Last Name (as appear in your Passport)</label>
-							<input type="text" class="mb-4">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-12 col-md-6">
-							<label>Gender</label>
-							<select class="filtro-multiselect mb-4">
-								<option>Male</option>
-								<option>Female</option>
-							</select>
-						</div>
-						<div class="col-12 col-md-6">
-							<label>Date of Birth</label>
-							<div class="row mb-4">
-								<div class="col-4">
-									<select class="filtro-multiselect">
-										<?php for ($i=1; $i <= 31 ; $i++){
-											echo '<option>'.$i.'</option>';
-										}?>
-									</select>
-								</div>
-								<div class="col-4">
-									<select class="filtro-multiselect">
-										<option>January</option>
-										<option>February</option>
-										<option>March</option>
-										<option>April</option>
-										<option>May</option>
-										<option>June</option>
-										<option>July</option>
-										<option>August</option>
-										<option>September</option>
-										<option>October</option>
-										<option>November</option>
-										<option>December</option>
-									</select>
-								</div>
-								<div class="col-4">
-									<select class="filtro-multiselect">
-										<?php for ($i = 1900; $i <= (date('Y')) ; $i++){
-											echo '<option>'.$i.'</option>';
-										}?>
-									</select>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-12 col-md-6">
-							<label>Nationality</label>
-							<input type="text" class="mb-4">
-						</div>
-						<div class="col-12 col-md-6">
-							<label>Passport number</label>
-							<input type="text" class="mb-4">
-						</div>
-					</div>
+					
 					<div class="row">
 						<div class="col-12 mb-4">
 						<p class=""><input type="checkbox">I accept the <a href="#" class="font-weight-bold"><u>Terms and conditions</u></a> of MyperuGuide.com.</p>
