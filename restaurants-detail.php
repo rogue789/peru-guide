@@ -611,16 +611,6 @@
 					</div>
 					<div class="row">
 						<div class="col-12 col-md-6">
-							<label>First Name</label>
-							<input type="text" class="mb-4">
-						</div>
-						<div class="col-12 col-md-6">
-							<label>Last Name</label>
-							<input type="text" class="mb-4">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-12 col-md-6">
 							<label>Gender</label>
 							<select class="filtro-multiselect mb-4">
 								<option>Male</option>
@@ -634,81 +624,22 @@
 					</div>
 					<div class="row">
 						<div class="col-12 col-md-6">
-							<label>Passport Number</label>
+							<label>First Name</label>
 							<input type="text" class="mb-4">
 						</div>
 						<div class="col-12 col-md-6">
-							<label>Date of Birth</label>
-							<div class="row mb-4">
-								<div class="col-4">
-									<select class="filtro-multiselect">
-										<?php for ($i=1; $i <= 31 ; $i++){
-											echo '<option>'.$i.'</option>';
-										}?>
-									</select>
-								</div>
-								<div class="col-4">
-									<select class="filtro-multiselect">
-										<option>January</option>
-										<option>February</option>
-										<option>March</option>
-										<option>April</option>
-										<option>May</option>
-										<option>June</option>
-										<option>July</option>
-										<option>August</option>
-										<option>September</option>
-										<option>October</option>
-										<option>November</option>
-										<option>December</option>
-									</select>
-								</div>
-								<div class="col-4">
-									<select class="filtro-multiselect">
-										<?php for ($i = 1900; $i <= (date('Y') - 5) ; $i++){
-											echo '<option>'.$i.'</option>';
-										}?>
-									</select>
-								</div>
-							</div>
+							<label>Last Name</label>
+							<input type="text" class="mb-4">
 						</div>
 					</div>
+					
 					<div class="row">
 						<div class="col-12 col-md-6">
-							<label>Phone Number</label>
-							<input type="text mb-4">
-						</div>
-						<div class="col-12 col-md-6">
-							<label>Email></label>
+							<label>Email</label>
 							<input type="email" class="mb-4">
-						</div>
+						</div>						
 					</div>
-					<div class="row">
-						<div class="col-12 col-md-6">
-							<label>Mailing Address</label>
-							<input type="text" class="mb-4">
-						</div>
-						<div class="col-12 col-md-6">
-							<label>City</label>
-							<input type="text" class="mb-4">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-12 col-md-6">
-							<label>Zip Code or Postal Code</label>
-							<input type="text" class="mb-4">
-						</div>
-						<div class="col-12 col-md-6">
-							<label>State or Province</label>
-							<input type="text" class="mb-4">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-12 col-md-6">
-							<label>Country</label>
-							<input type="text" class="mb-4">
-						</div>
-					</div>
+					
 					<div class="row">
 						<div class="col-12 mb-4">
 							<p class=""><input type="checkbox">I accept the <a href="#" class="font-weight-bold"><u>Terms and conditions</u></a> of MyperuGuide.com.</p>
