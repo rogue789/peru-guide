@@ -525,6 +525,7 @@
 
 
 	<?php include "footer.php"; ?>
+</script>
 </body>
 </html>
 
