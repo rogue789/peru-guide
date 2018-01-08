@@ -6,7 +6,10 @@
 
 	<section class="aPinterna aPresultados aPage-discounts formulario">
 		<div class="aDiv-Banner aDiv-Banner-2" style="background: rgba(0, 0, 0, 0) url('img/banner-seccion-operador.jpg') no-repeat scroll center center / cover">
-			<h3 class="aFz-34 aFc-blanco aTa-c aMb-0 text-center">Pricing Table</h3>
+            <h3 class="aFz-34 aFc-blanco aTa-c mb-3 text-center">Pricing Table</h3>
+            <p class="text-center aFc-blanco mb-1 shadow-text-1 aFz-20">Nombre del paquete suscrito</p>
+            <p class="text-center aFc-blanco mb-1 shadow-text-1">DD/MM/AAAA al DD/MM/AAAA</p>
+            <p class="text-center mb-1 shadow-text-1"><a href="#" class=" aFc-rojo">¡Mejora Tu Paquete!</a></p>
 		</div>
     <div class="background-gris pricing-table">
         <div class="container pt-5">
