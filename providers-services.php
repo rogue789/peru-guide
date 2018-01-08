@@ -43,7 +43,7 @@
 						    <div class="background-blanco pl-3 pr-3 pt-3 pb-3">
 
 
-                                
+                            <div class="popup-servicios"><a href="#" data-toggle="modal" data-target="#videoTutorial"><img src="img/play-btn.png"> Ver Tutorial</a></div>
                                 <form id="fileupload" method="POST" enctype="multipart/form-data">
                                     <div class="background-blanco pl-3 pr-3 pt-3 pb-3 formulario">
                                     <div class="row mb-4">
@@ -140,7 +140,7 @@
                                     </div>
                                     </div>
                                 </form>
-                                <div class="popup-servicios"><a href="#" data-toggle="modal" data-target="#videoTutorial"><img src="img/play-btn.png"> Ver Tutorial</a></div>
+                                
                                 
                             </div>
                         </div>

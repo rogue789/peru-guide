@@ -60,13 +60,15 @@
 							<h3 class="aFz-24 aFc-negro aMb-0 aFf-L">Visiting Lima by Plane</h3>
 							<div class="aBg-rojo aH-2 aA-55 aMt-20 aMb-20"> </div>
 						</div>
-						<div class="aTa-j aLh-1-3">
-							<p><strong>Location:</strong> Elmer Faucett Avenue (no number), City of Callao, Region of Lima. </p>
-							<p><strong>Phone:</strong> +51 1 517-3100. </p>
-							<p><strong>Arrivals and Departures:</strong> This airport receives flights from all the main cities in the world and Peru. All international and domestic departures and arrivals can be checked at the Jorge Chávez International Airport site. </p>
-							<p><strong>Highlights:</strong> There are bookstores, handcraft stores, a storage room at a cost, pharmacy, Internet shop, coffee shops, and a food court, which are open to the public. The storage room is located on the first floor next to the domestic arrivals exit doors</p>
-							<p><strong>Transportation from and to:</strong> If transportation hasn't been arranged to take the traveler to his/her accommodations, an unauthorized taxi shouldn't be hired (rate of travelers robbed is high). The only authorized company is ”Taxi Green” (The only downside is that drivers don't speak English.) There is a “Taxi Green” booth located outside the domestic and international exit doors. If pick-up is arranged through a tour company, the reliability of the provider should be triple-checked to avoid disappointments. A private ride from the airport to the districts of Miraflores or San Isidro costs $20.00 - $40.00 (depending on providers and service needed). </p>
-							<p><strong>Domestic Airlines:</strong> Lan Peru (Ave. Jose Pardo 513, Miraflores District), Star Peru (Ave. Comandante Espinar 331 - 4th Floor), Miraflores District), Peruvian Airlines (Calle Elías Aguirre 331 - Of. 301, Miraflores District), LC Peru (Ave. Pablo Carriquiry 857, San Isidro District), Avianca (Ave. Jose Pardo 831 - 4th Floor, Miraflores District)</p>
+						<div class="aTa-j aLh-1-3 aListClean aList-check">
+							<ul>
+								<li><strong>Location:</strong> Elmer Faucett Avenue (no number), City of Callao, Region of Lima. </li>
+								<li><strong>Phone:</strong> +51 1 517-3100. </li>
+								<li><strong>Arrivals and Departures:</strong> This airport receives flights from all the main cities in the world and Peru. All international and domestic departures and arrivals can be checked at the Jorge Chávez International Airport site. </li>
+								<li><strong>Highlights:</strong> There are bookstores, handcraft stores, a storage room at a cost, pharmacy, Internet shop, coffee shops, and a food court, which are open to the public. The storage room is located on the first floor next to the domestic arrivals exit doors</li>
+								<li><strong>Transportation from and to:</strong> If transportation hasn't been arranged to take the traveler to his/her accommodations, an unauthorized taxi shouldn't be hired (rate of travelers robbed is high). The only authorized company is ”Taxi Green” (The only downside is that drivers don't speak English.) There is a “Taxi Green” booth located outside the domestic and international exit doors. If pick-up is arranged through a tour company, the reliability of the provider should be triple-checked to avoid disappointments. A private ride from the airport to the districts of Miraflores or San Isidro costs $20.00 - $40.00 (depending on providers and service needed). </li>
+								<li><strong>Domestic Airlines:</strong> Lan Peru (Ave. Jose Pardo 513, Miraflores District), Star Peru (Ave. Comandante Espinar 331 - 4th Floor), Miraflores District), Peruvian Airlines (Calle Elías Aguirre 331 - Of. 301, Miraflores District), LC Peru (Ave. Pablo Carriquiry 857, San Isidro District), Avianca (Ave. Jose Pardo 831 - 4th Floor, Miraflores District)</li>
+							</ul>
 						</div>
 					</div>
 					<div class="aW-31 aW-100-767">

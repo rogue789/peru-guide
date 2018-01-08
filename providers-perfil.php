@@ -106,6 +106,7 @@
                 <div class="col-12">
                   <label>Adjuntar Logotipo</label>
                   <input type="file" name="adjunto">
+                  <p class="gris"><small>Dimesiones 400x400 pixeles. Formato png y jpg.</small></p>
                 </div>
               </div>
               <div class="row">

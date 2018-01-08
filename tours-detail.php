@@ -593,11 +593,11 @@
 					</div>
 					<div class="row">
 						<div class="col-12 col-md-6">
-							<label>First Name</label>
+							<label>First Name (as appears in your Passport)</label>
 							<input type="text" class="mb-4">
 						</div>
 						<div class="col-12 col-md-6">
-							<label>Last Name</label>
+							<label>Last Name (as appears in your Passport)</label>
 							<input type="text" class="mb-4">
 						</div>
 					</div>
@@ -656,12 +656,12 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-12 col-md-6">
+						<div class="col-12 col-md-6 mb-4">
 							<label>Phone Number</label>
 							<input type="text mb-4">
 						</div>
 						<div class="col-12 col-md-6">
-							<label>Email></label>
+							<label>Email</label>
 							<input type="email" class="mb-4">
 						</div>
 					</div>
@@ -680,7 +680,7 @@
 							<label>Zip Code or Postal Code</label>
 							<input type="text" class="mb-4">
 						</div>
-						<div class="col-12 col-md-6">
+						<div class="col-12 col-md-6 mb-4">
 							<label>State or Province</label>
 							<select>
 								<option>Perú</option>
@@ -690,7 +690,7 @@
 					<div class="row">
 						<div class="col-12 col-md-6 mb-4">
 							<label>Country</label>
-							<select>
+							<select class="filtro-multiselect">
 								<option>Perú</option>
 							</select>
 						</div>
@@ -703,7 +703,7 @@
 					<div class="row">
 						<div class="col-12 col-md-6">
 							<label>First Name (as appears in your Passport)</label>
-							<input type="text" class="-mb-4">
+							<input type="text" class="mb-4">
 						</div>
 						<div class="col-12 col-md-6">
 							<label>Last Name (as appear in your Passport)</label>
@@ -757,7 +757,9 @@
 					<div class="row">
 						<div class="col-12 col-md-6">
 							<label>Nationality</label>
-							<input type="text" class="mb-4">
+							<select class="filtro-multiselect mb-4">
+								<option>Perú</option>
+							</select>
 						</div>
 						<div class="col-12 col-md-6">
 							<label>Passport number</label>
