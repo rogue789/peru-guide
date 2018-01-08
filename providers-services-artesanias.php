@@ -93,9 +93,14 @@
                                         <textarea rows="6"></textarea>
                                         </div>
                                     </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <label>Horario de Atención:</label>
+                                        </div>
+                                    </div>
                                     <div class="row mb-4">
                                         <div class="col-6 col-md-3">
-                                        <label>Horario de Atención:</label>
+                                        
                                         <select class="filtro-multiselect">
                                             <?php for ($i=1; $i <= 24; $i++){
                                                 echo '<option>'.$i.' : 00</option>';
@@ -103,7 +108,6 @@
                                         </select>
                                         </div>
                                         <div class="col-6 col-md-3">
-                                        <label> </label>
                                         <select class="filtro-multiselect">
                                             <?php for ($i=1; $i <= 24; $i++){
                                                 echo '<option>'.$i.' : 00</option>';

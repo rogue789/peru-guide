@@ -82,11 +82,23 @@
             </select>
           </div>
         </div>
-        <div class="row mb-4 mt-4 justify-content-end">
-          <div class="col-12 text-center text-md-right">
-            <p class="d-block d-md-inline-block mr-md-3">Add a new Activity!</p>
-            <a class="d-block d-md-inline-block aButton-r-a shadowButton aP-15-25 aFz-16" href="#" data-toggle="modal" data-target="#saveActivity">SAVE ACTIVITY</a>
+        <div class="row mb-4 mt-4">
+          <div class="col-12 col-md-3 text-center text-md-left mb-1 mb-md-0">
+            <span class="aButton-r-a shadowButton aP-15-25 mr-1 mb-2 aFz-16 d-inline-block">DIA 1</span> <span class="d-inline-block">21 mar 2017</span>
           </div>
+          <div class="col-12 col-md-2 text-center text-md-left mb-1 mb-md-0 align-self-center">
+            <p><span class="aFc-negro">From:</span> 15:35</p>
+            <p><span class="aFc-negro">To:</span> 17:35</p>
+          </div>
+          <div class="col-12 col-md-4 text-center text-md-left align-self-center mb-1 mb-md-0">
+            <p>Traslado Aeropuerto - Hotel en Miraflores</p>
+            <p>Servicio Privado Operador XXX</p>
+          </div>
+          <div class="col-12 col-md-3 text-center text-lg-right mb-1 mb-md-0">
+            <a class="aButton-r-a shadowButton aP-15-25 aFz-16" href="#" data-toggle="modal" data-target="#saveActivity">SAVE ACTIVITY</a>
+          </div>
+
+
           <div class="modal fade modalCustom" id="saveActivity" tabindex="-1" role="dialog" aria-labelledby="saveActivtylabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
               <div class="modal-content">                  
@@ -130,7 +142,7 @@
                   </div>
                   <div class="row mt-3">
                     <div class="col-12 col-lg-6 text-center mb-2">
-                      <a class="aButton-gl-r shadowButton aPv-10 w-100 aFz-16" href="#">Información</a>
+                      <a class="aButton-gl-r shadowButton aPv-10 w-100 aFz-16 aBpopup" href="#aPopup-informacion">Información</a>
                     </div>
                     <div class="col-12 col-lg-6 text-center">
                       <a class="aButton-r-a shadowButton aPv-10 w-100 aFz-16" href="#">Agregar</a>
@@ -165,7 +177,7 @@
                   </div>
                   <div class="row mt-3">
                     <div class="col-12 col-lg-6 text-center mb-2">
-                      <a class="aButton-gl-r shadowButton aPv-10 w-100 aFz-16" href="#">Información</a>
+                      <a class="aButton-gl-r shadowButton aPv-10 w-100 aFz-16 aBpopup" href="#aPopup-informacion">Información</a>
                     </div>
                     <div class="col-12 col-lg-6 text-center">
                       <a class="aButton-r-a shadowButton aPv-10 w-100 aFz-16" href="#">Agregar</a>
@@ -200,7 +212,7 @@
                   </div>
                   <div class="row mt-3">
                     <div class="col-12 col-lg-6 text-center mb-2">
-                      <a class="aButton-gl-r shadowButton aPv-10 w-100 aFz-16" href="#">Información</a>
+                      <a class="aButton-gl-r shadowButton aPv-10 w-100 aFz-16 aBpopup" href="#aPopup-informacion">Información</a>
                     </div>
                     <div class="col-12 col-lg-6 text-center">
                       <a class="aButton-r-a shadowButton aPv-10 w-100 aFz-16" href="#">Agregar</a>
@@ -237,7 +249,7 @@
                   </div>
                   <div class="row mt-3">
                     <div class="col-12 col-lg-6 text-center mb-2">
-                      <a class="aButton-gl-r shadowButton aPv-10 w-100 aFz-16" href="#">Información</a>
+                      <a class="aButton-gl-r shadowButton aPv-10 w-100 aFz-16 aBpopup" href="#aPopup-informacion">Información</a>
                     </div>
                     <div class="col-12 col-lg-6 text-center">
                       <a class="aButton-r-a shadowButton aPv-10 w-100 aFz-16" href="#">Agregar</a>
@@ -272,7 +284,7 @@
                   </div>
                   <div class="row mt-3">
                     <div class="col-12 col-lg-6 text-center mb-2">
-                      <a class="aButton-gl-r shadowButton aPv-10 w-100 aFz-16" href="#">Información</a>
+                      <a class="aButton-gl-r shadowButton aPv-10 w-100 aFz-16 aBpopup" href="#aPopup-informacion">Información</a>
                     </div>
                     <div class="col-12 col-lg-6 text-center">
                       <a class="aButton-r-a shadowButton aPv-10 w-100 aFz-16" href="#">Agregar</a>
@@ -335,6 +347,9 @@
       </div>
     </div>
   </div>
+
+
+<?php include "footer.php"; ?>
 <div id="aPopup-informacion" class="aPage-detail w-700px zoom-anim-dialog aPopup-content mfp-hide">
   <div class="aD2 arcordion-resp">
     <ul class="aTabs nav nav-tabs aListClean aTable-m aMb-25 aShadow aDn-767">
@@ -783,9 +798,6 @@
 </div>
   <div class="overlay-tour" data-dismiss="modal" aria-label="Close">
 	</div>
-
-<?php include "footer.php"; ?>
-
     </body>
 </html>
 

@@ -75,6 +75,8 @@
                                         </select>
                                         </div>
                                     </div>
+                                    <div class="borde1 mt-3 mb-3"></div>
+                                    <p class="aFc-negro mb-3">Incluir todos los tipos de habitaciones disponibles:</p>
                                     <div class="row mb-2">
                                         <div class="col-12 col-md-6">
                                         <label>Tipo de Habitacion:</label>
@@ -119,6 +121,8 @@
                                         <div id="habitaciones"></div>
                                         </div>
                                     </div>
+                                    <div class="borde1 mt-3 mb-3"></div>
+                                    <p class="aFc-negro mb-3">Incluir todos los servicios ofrecidos:</p>
                                     <div class="row mb-4">
                                         <div class="col-12 col-md-6">
                                         <label>Incluye Desayuno</label>

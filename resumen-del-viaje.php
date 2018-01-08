@@ -28,13 +28,14 @@
                 <div class="col-12 col-md-6">
                     <p><strong class="aFc-negro">Fecha y hora de salida:</strong> 20 mar 2017 - 12:00pm</p>
                     <p><strong class="aFc-negro">Fecha y hora de llegada</strong> 21 mar 2017 - 06:00am</p>
+                    <p><strong class="aFc-negro font-weight-bold">TOTAL COST OF ITINERARY: $1.000,00</strong></p>
                 </div>
             </div>
             <div class="borde1 mt-3 mb-3"></div>
             <div class="row">
                 <div class="col-12  mt-3 col-md-6 text-center text-md-left mb-4">
                     <span class="aButton-r-a shadowButton aP-15-25 mr-3 aFz-16">DIA 1</span> 21 mar 2017
-                </div>
+                </div> 
                 <div class="col-12 col-md-6 text-center text-md-right mb-4">
                     <a class="aButton-r-a shadowButton aP-15-25 aFz-16" href="#">AGAREGAR MÁS ACTIVIDADES</a>
                 </div>
