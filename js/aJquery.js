@@ -487,14 +487,14 @@ $(document).ready(function () {
 		  {
 			breakpoint: 1024,
 			settings: {
-			  arrows: false,
+			  arrows: true,
 			  centerMode: true,
 			  centerPadding: '1px',
 			  slidesToShow: 3
 			}
 		  },
 		  {
-			breakpoint: 480,
+			breakpoint: true,
 			settings: {
 			  arrows: false,
 			  centerMode: true,
